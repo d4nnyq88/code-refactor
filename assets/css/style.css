@@ -3,27 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+/*Sets the body background color */
 body {
     background-color: #d9dcd6;
 }
-
+/* Sets the SEO acronym color in the h1 */
 #seo {
-    color: #a9aca6;
+    color: #b4b4b4;
 }
-
+/* Styles the header section in the HTML file */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Styles the main h1 title on the page */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Sets the style for the navigation section on the page */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +31,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* removes the bullets from the unordered list in the navigation */
 .header nav ul {
     list-style-type: none;
 }
-
+/* Sets the navigation links to the right side of the page */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Sets the color of the navigation links and removes the default underlines on the links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* sets the font size in all p sections */
 p {
     font-size: 16px;
 }
-
+/* Sets the size of the hero image and also inserts the hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,24 +58,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* selector to float images or elements to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* selector to float images or elements to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* sets the width and style of the content class (main section containing the 3 service sections) */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* sets the styles for the aside section on the right side of the page */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -84,58 +84,26 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    ;
+    color: white;
 }
-
-.benefit-lead {
+/* sets the style for the header sections within the aside section */
+.aside-header {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* sets the style of the h3 headers in the aside section  */
+.aside-header h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* sets the style of the image icons in the aside section */
+.aside-header img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
+/* sets the style for the 3 service sections found in the main section of HTML */
+.service-section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,59 +111,23 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* sets the max height for the images in the 3 service sections */
+.service-section img{
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* sets the font size and margins of the h2 headers in the 3 service sections */
+.service-section h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* sets the style for the footer of the page */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* sets the font size for the h4 header in the footer */
 .footer h4 {
     font-size: 20px;
 }
